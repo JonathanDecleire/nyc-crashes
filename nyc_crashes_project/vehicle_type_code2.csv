@@ -1,0 +1,309 @@
+,vehicle_type_code2
+Sedan,24531
+Station Wagon/Sport Utility Vehicle,19095
+Bike,2871
+Taxi,1805
+Pick-up Truck,1764
+Box Truck,1510
+Bus,793
+Tractor Truck Diesel,657
+Motorcycle,612
+Van,391
+E-Scooter,319
+E-Bike,238
+Dump,228
+Flat Bed,190
+Ambulance,150
+Convertible,140
+Moped,135
+Carry All,109
+PK,101
+Garbage or Refuse,97
+Tractor Truck Gasoline,89
+Motorbike,76
+E-Sco,66
+Tow Truck / Wrecker,59
+E-Bik,54
+Motorscooter,48
+Chassis Cab,47
+Tanker,42
+Concrete Mixer,34
+4 dr sedan,30
+Refrigerated Van,21
+AMBULANCE,19
+MOPED,18
+LIMO,18
+Armored Truck,17
+TRUCK,15
+Flat Rack,15
+van,14
+PASSENGER VEHICLE,14
+Beverage Truck,13
+Open Body,12
+Lift Boom,12
+Minibike,12
+FIRE TRUCK,10
+3-Door,10
+DUMP,10
+TRAIL,10
+School Bus,10
+TRAILER,9
+FDNY,9
+SCOOTER,8
+USPS,8
+UNKNOWN,8
+Multi-Wheeled Vehicle,8
+Stake or Rack,7
+FIRETRUCK,6
+FORKL,6
+Bulk Agriculture,6
+FIRE,6
+E-BIKE,6
+E-SCOOTER,6
+AMBUL,5
+Fire truck,5
+SPORT UTILITY / STATION WAGON,5
+Pedicab,5
+Pickup with mounted Camper,4
+Fire Truck,4
+COMMERCIAL,4
+COM,4
+Van Camper,4
+DELV,4
+OTHER,4
+ambulance,4
+scooter,4
+FDNY TRUCK,4
+TRACTOR TR,3
+Glass Rack,3
+2 dr sedan,3
+SCOOT,3
+sanitation,3
+Minicycle,3
+DELIV,3
+trail,3
+unkno,3
+BOX T,3
+PICK UP,3
+Ambul,3
+tow t,3
+UNK,3
+truck,3
+ELECT,3
+fdny,2
+PSD,2
+tract,2
+Pallet,2
+firet,2
+GARBAGE TR,2
+P/SH,2
+Scooter,2
+STREE,2
+Unkno,2
+C1,2
+Pickup,2
+scoot,2
+Fire,2
+BACKH,2
+E-SCO,2
+UTIL,2
+Tow Truck,2
+E-BIK,2
+fire,2
+UNKNO,2
+BOX TRUCK,2
+US PO,2
+LIVERY VEHICLE,2
+Lunch Wagon,2
+E-scooter,2
+REFG,2
+Delivery t,2
+FDNY FIRE,2
+Elect,2
+trailer,2
+AMB,2
+Unknown,2
+Trailer,2
+FDNY EMS,2
+TAXI,2
+GOLF CART,2
+TRACTOR,2
+SANITATION,2
+USPS TRUCK,2
+FIRET,2
+DIRT BIKE,2
+MOVIN,2
+GARBA,2
+SCHOO,2
+Hopper,2
+MTA B,2
+FREIGHTLIN,1
+AMBU,1
+CAMPE,1
+MAILTRUCK,1
+SKID LOADE,1
+golf cart,1
+INTL,1
+DUMP TRUCK,1
+Sanitation,1
+ENGIN,1
+FDNY Fire,1
+box truck,1
+ENCLO,1
+LAWN MOWER,1
+Dirt Bike,1
+PICKUP,1
+motor,1
+DIRTBIKE,1
+FRT,1
+MAIL,1
+TUCK,1
+Utili,1
+LCOM,1
+USPOS,1
+e-bike,1
+POWER SHOV,1
+HEARSE,1
+VAN T,1
+BACKHOE LO,1
+yello,1
+DETAC,1
+Postal tru,1
+Firetruck,1
+FORKLIFT,1
+Van (,1
+BOX,1
+RAM,1
+IP,1
+E-Scoter,1
+UKN,1
+VAN/TRANSI,1
+T630 Forkl,1
+FD TRUCK,1
+Scoot,1
+LMA,1
+MTA b,1
+SELF-,1
+cargo van,1
+PC,1
+MTA Truck,1
+MINI VAN,1
+usps,1
+E Bik,1
+TRA/R,1
+Schoo,1
+Tree cutte,1
+SPECIAL PU,1
+Razor scoo,1
+COMMERICAL,1
+REVEL,1
+US Govt ve,1
+SCHOOLBUS,1
+FDNY firet,1
+SKATE,1
+DELIVERY T,1
+Sweeper,1
+HAUL FOR H,1
+Cargo Truc,1
+FLATBED,1
+uhaul truc,1
+FDNY FIRET,1
+Light trai,1
+ROAD SWEEP,1
+FDNY truck,1
+TOWER,1
+forklift,1
+transport,1
+Motorized Home,1
+CAT32,1
+cemen,1
+Flatbed,1
+JOHN,1
+Pick,1
+Forklift,1
+TOW T,1
+Flat,1
+Cargo Van,1
+firetruck,1
+EBIKE,1
+LADDER TRU,1
+crane,1
+4dsd,1
+const,1
+FOOD,1
+CHURC,1
+I1,1
+TRACT,1
+PASS,1
+electric s,1
+Enclosed Body - Nonremovable Enclosure,1
+WORK,1
+FORK LIFT,1
+USPS POSTA,1
+MOTOR,1
+SMALL COM VEH(4 TIRES) ,1
+Forkl,1
+Dirt bike,1
+NYC BUS,1
+Gas Scoote,1
+Electric s,1
+UTILITY TR,1
+ACCESS A R,1
+Snow Plow,1
+E SCO,1
+motorcycle,1
+mopd,1
+MOTORCYCLE,1
+FLAT BED,1
+MOBILE,1
+BOB CAT,1
+mailtruck,1
+forkl,1
+PICK-UP TR,1
+MAIL TRUCK,1
+unknown,1
+UTIL WH,1
+GLP050VXEV,1
+sedan,1
+FIRE ENGIN,1
+street cle,1
+18 WEELER,1
+fork,1
+ESCOOTER,1
+TRL,1
+Trail,1
+trlr,1
+util,1
+E SCOOTER,1
+Dump Truck,1
+Well Driller,1
+TRANS,1
+push scoot,1
+Vanette,1
+INTERNATIO,1
+wagon,1
+POST,1
+ALUMI,1
+STREET SWE,1
+NYC ACS Va,1
+FRIEGHTLIN,1
+Polic,1
+FORK,1
+Truck,1
+dump truck,1
+moped,1
+motor scoo,1
+ART M,1
+AMBULENCE,1
+E350,1
+DIRTB,1
+Backh,1
+FORD,1
+Fleet,1
+Tilt tande,1
+itas,1
+NYC FIRETR,1
+U-HAUL,1
+BLACK,1
+ELECTRIC S,1
+POSTAL TRU,1
