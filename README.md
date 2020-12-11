@@ -1,30 +1,46 @@
-# Data preprocessing - NYC Motor Vehicle Crashes project
+# Data preprocessing - NYC Motor Vehicle Crashes cleaning dataset project
 
-Must-have features
+Be able to use pandas
+Be able to clean a data set
+Be able to do prepare a data set for a machine learning model
 
-    The dataset contains no missing values ("" or null)
-    No duplicates.
-    Values are consolidated
-    Data format is correct
-    No blank spaces (ex: " I love python " => "I love python")
+Purpose: Clean a messy dataset to apply a machine learning model to eat afterwards.
 
-Nice-to-have features
+
+## Must-have features
+
+    [x] The dataset contains no missing values ("" or null)
+    [x] No duplicates.
+    [x] Values are consolidated
+    [x] Data format is correct
+    [x] No blank spaces (ex: " I love python " => "I love python")
+
+## Nice-to-have features
 
     The more rows of data you use, the better. However, pay attention that the more data you have, the longer each operation needs to execute.
+    Shape: (56996 rows, 17 columns)
+    
     Add new features computed using the features present that you think are going to be useful.
-    Apply the preprocessing steps needed so that a future machine learning model can make the best use out of it (feature selection, feature engineering, feature normalization,    and resampling). You have to decide which one are necessary and which ones aren't.
+    Apply the preprocessing steps needed so that a future machine learning model can make the best use out of it (you decide):
+        - feature selection 
+        - feature engineering
+        - feature normalization
+        - resampling
+
+## How?
+
+A dataset of 100.000 rows was chosen, spanning from 2018-2019.
 
 
-Deliverables
+## Deliverables
 
     Publish your source code on the GitHub repository.
     Create final .csv file with the cleaned dataset
-    Pimp up the readme file:
-        What, Why, When, How, Who.
-        Pending things to do
+        - Check cleaned_df.csv
+  
 
 
-Graphs representing the data
+## Graphs representing the data
 
 ![Frequency of accidents per day of the month](frequency_per_day.png)
 ![Frequency of accidents per hour of the day](frequency_per_hour.png)
@@ -34,3 +50,11 @@ Graphs representing the data
 ![Number of persons affected by vehicle category type1](n_persons_affected_vehicle_category_type1.png)
 ![Number of persons affected by vehicle category type2](n_persons_affected_vehicle_category_type2.png)
 
+
+## Pending things to do
+
+
+### Who?
+Solo project
+### When?
+Timeframe: 2 days
