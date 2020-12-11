@@ -24,6 +24,13 @@ Deliverables
         Pending things to do
 
 
+Graphs representing the data
 
 ![Frequency of accidents per day of the month](frequency_per_day.png)
+![Frequency of accidents per hour of the day](frequency_per_hour.png)
+![Frequency of accidents per month of the year](frequency_per_month.png)
+![Number of persons affected per day of the month](n_persons_affected_day_month.png)
+![Number of persons affected per month of the year](n_persons_affected_month.png)
+![Number of persons affected by vehicle category type1](n_persons_affected_vehicle_category_type1.png)
+![Number of persons affected by vehicle category type2](n_persons_affected_vehicle_category_type2.png)
 
