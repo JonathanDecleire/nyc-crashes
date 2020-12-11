@@ -357,4 +357,60 @@ df = df[cols]
 
 #df.to_csv('cleaned_df.csv')
 cleaned_df = pd.read_csv('cleaned_df.csv')
-print(cleaned_df.columns)
+#print(cleaned_df.columns)
+
+
+'''
+Making some graphs to have a feel of the dataset
+'''
+cleaned_df['day'].plot.hist(alpha=0.5,bins=31)
+plt.title('Which days do most accidents occur?')
+plt.show()
+cleaned_df['month'].plot.hist(alpha=0.5,bins=12)
+plt.title('Which months do most accidents occur?')
+plt.show()
+cleaned_df['crash_time'].plot.hist(alpha=0.5,bins=24)
+plt.title('During which hour of the day do most accidents occur?')
+plt.show()
+cleaned_df['year'].plot.hist(alpha=0.5,bins=24)
+plt.title('Is there a trend in the number of accidents per year?')
+plt.show()
+
+# cleaned_df['number_of_persons_affected'].plot.hist(alpha=0.5)
+# plt.title('Overview of persons affected (injured and killed) per accident')
+# plt.show()
+
+# f, ax = plt.subplots(figsize=(20, 20))
+# corr = cleaned_df.corr()
+# sns.heatmap(corr, annot=True, mask=np.zeros_like(corr, dtype=np.bool), cmap=sns.diverging_palette(220, 10, as_cmap=True),square=True, ax=ax)
+# plt.show()
+
+ax = sns.barplot(x="day", y="number_of_persons_affected", data=cleaned_df)
+ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right")
+plt.tight_layout()
+plt.title('Number of persons affected in an accident each day of the month')
+plt.show()
+ax = sns.barplot(x="month", y="number_of_persons_affected", data=cleaned_df)
+ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right")
+plt.tight_layout()
+plt.title('Number of persons affected in an accident each month')
+plt.show()
+
+ax = sns.barplot(x="vehicle_type_code1", y="number_of_persons_affected", data=cleaned_df)
+ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right")
+plt.tight_layout()
+plt.title('Number of persons affected in an accident by first vehicle category type')
+plt.show()
+ax = sns.barplot(x="vehicle_type_code2", y="number_of_persons_affected", data=cleaned_df)
+ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right")
+plt.tight_layout()
+plt.title('Number of persons affected in an accident by second vehicle category type')
+plt.show()
+
+#print(cleaned_df['on_street_name'].value_counts())
+
+# ax = sns.barplot(x="on_street_name", y="number_of_persons_affected", data=cleaned_df)
+# ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right")
+# plt.tight_layout()
+# plt.title('Most dangerous streets in NYC')
+# plt.show()
