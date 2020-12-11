@@ -17,7 +17,8 @@ Purpose: Clean a messy dataset to apply a machine learning model to eat afterwar
 
 ## Nice-to-have features
 
-    The more rows of data you use, the better. However, pay attention that the more data you have, the longer each operation needs to execute.
+    The more rows of data you use, the better. 
+    However, pay attention that the more data you have, the longer each operation needs to execute.
     Shape: (56996 rows, 17 columns)
     
     Add new features computed using the features present that you think are going to be useful.
@@ -30,7 +31,14 @@ Purpose: Clean a messy dataset to apply a machine learning model to eat afterwar
 ## How?
 
 A dataset of 100.000 rows was chosen, spanning from 2018-2019.
+Columns with more than 50% of missing values were removed.
+The remaining rows with missing values were removed.
+This reduced our dataset by 43%. Still an acceptable number of data points left.
 
+Our target column was the 'number_of_persons_affected.
+It was created by adding the 'number_of_persons-killed' and ''number_of_persons-injured'.
+Our future goal is to be able to predict the conditions that led to persons being affected by an accident.
+Once we are able to predict that we will be able to think about different strategies to prevent it.
 
 ## Deliverables
 
@@ -52,7 +60,7 @@ A dataset of 100.000 rows was chosen, spanning from 2018-2019.
 
 
 ## Pending things to do
-
+- Dummy variables on categorical variables
 
 ### Who?
 Solo project
